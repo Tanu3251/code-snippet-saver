@@ -6,8 +6,8 @@
 <style>
 
 body{
-font-family: 'Segoe UI', Arial, sans-serif;
-background: linear-gradient(135deg,#f4f4f4,#e9eef7);
+font-family:'Segoe UI', Arial, sans-serif;
+background:#F4EFEA;
 margin:0;
 padding:40px;
 text-align:center;
@@ -17,54 +17,59 @@ h1{
 font-size:40px;
 margin-top:20px;
 margin-bottom:10px;
-color:#333;
+color:#3A3A3A;
+letter-spacing:1px;
 }
 
 p{
-color:#666;
+color:#777777;
 margin-bottom:40px;
 }
 
 .container{
 display:grid;
-grid-template-columns:repeat(3, 1fr);
+grid-template-columns:repeat(3,1fr);
 gap:40px;
 max-width:1000px;
 margin:auto;
 }
 
 .box{
-background:white;
+background:#F8F4EE;
 padding:30px;
-border-radius:18px;
-box-shadow:0 10px 25px rgba(0,0,0,0.08);
+border-radius:20px;
+box-shadow:
+8px 8px 16px rgba(0,0,0,0.08),
+-8px -8px 16px rgba(255,255,255,0.7);
 transition:0.3s;
 }
 
 .box:hover{
 transform:translateY(-8px);
-box-shadow:0 15px 35px rgba(0,0,0,0.12);
+box-shadow:
+12px 12px 24px rgba(0,0,0,0.1),
+-12px -12px 24px rgba(255,255,255,0.8);
 }
 
 h2{
 margin-bottom:20px;
-color:#222;
+color:#3A3A3A;
 }
 
 a{
 display:block;
 margin:10px 0;
 padding:12px;
-background:#4CAF50;
-color:white;
+background:#E8C7A9;
+color:#3A3A3A;
 text-decoration:none;
-border-radius:8px;
+border-radius:10px;
 font-weight:500;
 transition:0.2s;
 }
 
 a:hover{
-background:#43a047;
+background:#D8BBA6;
 transform:scale(1.03);
 }
 
@@ -77,7 +82,7 @@ transform:scale(1.03);
 <h1>Code Snippet Saver</h1>
 
 <p>Browse reusable programming snippets stored using Git version control.</p>
-<hr style="width:120px;border:2px solid #4CAF50;border-radius:10px;margin:auto;margin-bottom:40px;">
+<hr style="width:120px;border:2px solid #E8C7A9;border-radius:10px;margin:auto;margin-bottom:40px;">
 
 <div class="container">
 
