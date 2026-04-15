@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//this is a palindrome snippet
 int main() {
     int num, reversed = 0, remainder, original;
 
